@@ -86,8 +86,9 @@ x=\alpha+p\in \bigcup_{
 q\in \mathbb{Q}\\  
 -1\leq q\leq 1
 \end{array}}(\Omega+q)
-\hfill\blacksquare
 $$
+$\blacksquare$
+
 Thus
 $$
 \lambda\left(\bigcup_{

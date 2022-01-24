@@ -18,8 +18,6 @@ Then we show that those properties can't be satisfied.
 
 Firstly we define the equivalence class. We say $x\sim y$ or $x$ is equivalent to $y$ or $y \in [x]$ if $x-y\in \mathbb{Q}$, where $\mathbb{Q}$ is the set of rational numbers. 
 
-Then we define $\mathbb{R}\backslash\sim$ as the set of real numbers precluding all the equivalent 
-
 Then we define $\Omega$ be the set of inequivalent numbers in $(0,1)$. Given $p,q\in \mathbb{Q}$, We claim that the relation of $\Omega+p$ and $\Omega+q$ can either be $\Omega+p=\Omega+q$ or $(\Omega+p)\bigcap(\Omega+q)=\emptyset$.
 
 *Proof*: If there exist a $x\in (\Omega+p)\bigcap(\Omega+q)$, then we write  $x=\alpha+p=\beta+q$, thus $\alpha-\beta=q-p\in\mathbb{Q}$. If $p=q$, $\alpha=\beta$, then $\Omega+p=\Omega+q$. If $p\ne q$, then $\alpha\neq \beta$ and $\alpha\sim \beta$, which contradicts the definition of $\Omega$. $\blacksquare$

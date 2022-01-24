@@ -1,0 +1,103 @@
+---
+title: 'Non-measurable set'
+date: 2022-01-24
+permalink: /posts/2022/01/MT-lesson1/
+tags:
+  - Measure theory
+---
+
+In this section, we show that we need some specified set to construct the definition of measure.
+
+What is measure? Intuitively, the measure measures the entity. For example, we use length $b-a$ to measure the range $(a,b]$. Then we think, what a measure should be like? Define measure as  function $\lambda: \mathcal{P}(\mathbb{R})\to\mathbb{R}_+\bigcup\{+\infty\}$, where $\mathcal{P}(\mathbb{R})$ is the family of subsets of $\mathbb{R}$. We want measure to have the following properties:
+
+- $\lambda\big((a,b]\big)=b-a$ for all $a<b$
+- (**invariant of transformation**) $\lambda(A+x)=\lambda(A)$ for all $A\in \mathcal{R}(\mathbb{R})$, $x\in \mathbb{R}$.
+- (**sigma additive**) $\lambda(\bigcup_{j\geq1}A_j)=\sum_{j\geq1} \lambda(A_j)$ for all countable family of disjoint subsets of $\mathbb{R}$. 
+
+Then we show that those properties can't be satisfied.
+
+Firstly we define the equivalence class. We say $x\sim y$ or $x$ is equivalent to $y$ or $y \in [x]$ if $x-y\in \mathbb{Q}$, where $\mathbb{Q}$ is the set of rational numbers. 
+
+Then we define $\mathbb{R}\backslash\sim$ as the set of real numbers precluding all the equivalent 
+
+Then we define $\Omega$ be the set of inequivalent numbers in $(0,1)$. Given $p,q\in \mathbb{Q}$, We claim that the relation of $\Omega+p$ and $\Omega+q$ can either be $\Omega+p=\Omega+q$ or $(\Omega+p)\bigcap(\Omega+q)=\emptyset$.
+
+*Proof*: If there exist a $x\in (\Omega+p)\bigcap(\Omega+q)$, then we write  $x=\alpha+p=\beta+q$, thus $\alpha-\beta=q-p\in\mathbb{Q}$. If $p=q$, $\alpha=\beta$, then $\Omega+p=\Omega+q$. If $p\ne q$, then $\alpha\neq \beta$ and $\alpha\sim \beta$, which contradicts the definition of $\Omega$. $\blacksquare$
+
+Given $q\in \mathbb{Q}$ and $-1\leq q\leq 1$, we have $(\Omega+q)\in (-1, 2)$, thus 
+$$
+\bigcup_{
+\begin{array}{c}
+q\in \mathbb{Q}\\  
+-1\leq q\leq 1
+\end{array}}
+(\Omega+q)\subset (-1,2)
+$$
+We have $E\subset F \Longrightarrow \lambda(E)\leq \lambda(F)$, because 
+$$
+\lambda(F)-\lambda(E)
+\overset{sigma\,additive}{=}
+\lambda(F\backslash E)\geq 0
+$$
+Thus
+$$
+\lambda\left(\bigcup_{
+\begin{array}{c}
+q\in \mathbb{Q}\\  
+-1\leq q\leq 1
+\end{array}}
+(\Omega+q)
+\right) \leq \lambda((-1,2)) = 3
+$$
+Given sigma additive and invariant of transformation, we have 
+$$
+3\geq\lambda\left(\bigcup_{
+\begin{array}{c}
+q\in \mathbb{Q}\\  
+-1\leq q\leq 1
+\end{array}}
+(\Omega+q)
+\right)
+= \sum_{
+\begin{array}{c}
+q\in \mathbb{Q}\\  
+-1\leq q\leq 1
+\end{array}}
+\lambda(\Omega+q)\\
+= \sum_{
+\begin{array}{c}
+q\in \mathbb{Q}\\  
+-1\leq q\leq 1
+\end{array}}
+\lambda(\Omega)\\
+$$
+Thus $\lambda(\Omega)=0$.
+
+On the other hand, we claim that 
+$$
+(0,1)\subset \bigcup_{
+\begin{array}{c}
+q\in \mathbb{Q}\\  
+-1\leq q\leq 1
+\end{array}}(\Omega+q)
+$$
+*Proof*: For any $x\in (0,1)$, there exist $\alpha\in [x]\bigcap \Omega$ such that $x-\alpha=p\in \mathbb{Q}$, and $\alpha \in(0,1)$, thus $p\in(-1,1)$. Thus 
+$$
+x=\alpha+p\in \bigcup_{
+\begin{array}{c}
+q\in \mathbb{Q}\\  
+-1\leq q\leq 1
+\end{array}}(\Omega+q)
+\hfill\blacksquare
+$$
+Thus
+$$
+\lambda\left(\bigcup_{
+\begin{array}{c}
+q\in \mathbb{Q}\\  
+-1\leq q\leq 1
+\end{array}}
+(\Omega+q)
+\right)\geq\lambda((0,1))=1
+$$
+which leads to a contradiction. Thus the properties can't be met for all family of subsets of $\mathbb{R}$, that's why we need to specify some sets in the next section.

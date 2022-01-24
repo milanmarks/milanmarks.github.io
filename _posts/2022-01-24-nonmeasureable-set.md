@@ -23,6 +23,8 @@ Then we define $\Omega$ be the set of inequivalent numbers in $(0,1)$. Given $p,
 *Proof*: If there exist a $x\in (\Omega+p)\bigcap(\Omega+q)$, then we write  $x=\alpha+p=\beta+q$, thus $\alpha-\beta=q-p\in\mathbb{Q}$. If $p=q$, $\alpha=\beta$, then $\Omega+p=\Omega+q$. If $p\ne q$, then $\alpha\neq \beta$ and $\alpha\sim \beta$, which contradicts the definition of $\Omega$. $\blacksquare$
 
 Given $q\in \mathbb{Q}$ and $-1\leq q\leq 1$, we have $(\Omega+q)\in (-1, 2)$, thus 
+
+
 $$
 \bigcup_{
 \begin{array}{c}
@@ -31,13 +33,21 @@ q\in \mathbb{Q}\\
 \end{array}}
 (\Omega+q)\subset (-1,2)
 $$
+
+
 We have $E\subset F \Longrightarrow \lambda(E)\leq \lambda(F)$, because 
+
+
 $$
 \lambda(F)-\lambda(E)
 \overset{sigma\,additive}{=}
 \lambda(F\backslash E)\geq 0
 $$
+
+
 Thus
+
+
 $$
 \lambda\left(\bigcup_{
 \begin{array}{c}
@@ -47,7 +57,11 @@ q\in \mathbb{Q}\\
 (\Omega+q)
 \right) \leq \lambda((-1,2)) = 3
 $$
-Given sigma additive and invariant of transformation, we have 
+
+
+Given sigma additive and invariant of transformation, we have
+
+ 
 $$
 3\geq\lambda\left(\bigcup_{
 \begin{array}{c}
@@ -69,9 +83,13 @@ q\in \mathbb{Q}\\
 \end{array}}
 \lambda(\Omega)\\
 $$
+
+
 Thus $\lambda(\Omega)=0$.
 
 On the other hand, we claim that 
+
+
 $$
 (0,1)\subset \bigcup_{
 \begin{array}{c}
@@ -79,7 +97,11 @@ q\in \mathbb{Q}\\
 -1\leq q\leq 1
 \end{array}}(\Omega+q)
 $$
-*Proof*: For any $x\in (0,1)$, there exist $\alpha\in [x]\bigcap \Omega$ such that $x-\alpha=p\in \mathbb{Q}$, and $\alpha \in(0,1)$, thus $p\in(-1,1)$. Thus 
+
+
+*Proof*: For any $x\in (0,1)$, there exist $\alpha\in [x]\bigcap \Omega$ such that $x-\alpha=p\in \mathbb{Q}$, and $\alpha \in(0,1)$, thus $p\in(-1,1)$. Thus
+
+ 
 $$
 x=\alpha+p\in \bigcup_{
 \begin{array}{c}
@@ -90,6 +112,8 @@ $$
 $\blacksquare$
 
 Thus
+
+
 $$
 \lambda\left(\bigcup_{
 \begin{array}{c}
@@ -99,4 +123,6 @@ q\in \mathbb{Q}\\
 (\Omega+q)
 \right)\geq\lambda((0,1))=1
 $$
+
+
 which leads to a contradiction. Thus the properties can't be met for all family of subsets of $\mathbb{R}$, that's why we need to specify some sets in the next section.

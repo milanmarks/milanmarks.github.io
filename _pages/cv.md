@@ -21,5 +21,5 @@ Skills
   * Optimization theory
 * Programming skills
   * R
-  * Python (especially pytorch)s
+  * Python (especially pytorch)
 

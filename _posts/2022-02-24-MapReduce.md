@@ -26,7 +26,8 @@ tags:
 * reduce worker sort the intermediate pairs
 * master keep the state of the tasks (idle, in-progress, completed)
 
-  ## Fault Tolerance
+
+## Fault Tolerance
 
 ### worker failure
 

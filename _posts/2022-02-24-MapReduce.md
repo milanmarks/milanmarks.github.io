@@ -7,6 +7,8 @@ tags:
 
 ---
 
+[MapReduce](http://nil.csail.mit.edu/6.824/2021/papers/mapreduce.pdf) is a programming model for large data operating on multiple computers. Key functions listed below:
+
 1. partitioning the input data
 2. scheduling the program’s execution across a set of machines
 3. handling machine failures

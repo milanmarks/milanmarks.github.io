@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Haodong's homepage"
 title_separator          : "-"
-name                     : &name "Haodong"
+name                     : &name "Haodong Ling"
 description              : &description "undergrate student at Fudan University"
 url                      : https://milanmarks.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"

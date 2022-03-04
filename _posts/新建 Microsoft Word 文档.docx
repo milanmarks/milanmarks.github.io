@@ -1,9 +1,0 @@
----
-title: 'GFS: Google file system'
-date: 2022-02-24
-permalink: /posts/2022/GFS/
-tags:
-  - distributed system
----
-
-[GFS](http://nil.csail.mit.edu/6.824/2021/papers/gfs.pdf) is a distributed file system for large distributed data-intensive applications.

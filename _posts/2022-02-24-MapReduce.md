@@ -58,7 +58,3 @@ change master and continue after checkpoints
 
 * partial merging
 * executed after *map* by the same worker
-
-# performance
-
-# within google

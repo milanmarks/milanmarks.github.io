@@ -1,10 +1,7 @@
----
-title: 'Causal Inference: What if'
-date: 2022-04-08
-permalink: /posts/2022/ciwhatif/
-tags:
-  - causal inference
----
+<script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="outline-for-typora-master/outline/outline.js"></script>
+
+<link rel="stylesheet" type="text/css" href="outline-for-typora-master/outline/outline.css">
 
 ## Part I Causal inference without model
 

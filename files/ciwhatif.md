@@ -217,6 +217,8 @@
 
 ### treatment-confounder feedback
 
+
+
 ![image-20220331214028555](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20220331214028555.png)
 
 * confouder $L_0$ affect treatment $A_0$, $A_0$ affect $L_1$.

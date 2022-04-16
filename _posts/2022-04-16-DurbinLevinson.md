@@ -66,7 +66,7 @@ $$
 当$h\to \infty$，$\gamma(h)\to 0$，这条性质保证了
 
 $$
-\hat{X}_{n+1}=\sum_{j=1}^n\phi_{nj}X_{n+1-j}\tag{1}
+\hat{X}_{n+1}=\sum_{j=1}^n\phi_{nj}X_{n+1-j}\tag{*}
 $$
 
 的表示是唯一的。因此
@@ -100,7 +100,7 @@ $$
 \hat{X}_{n+1}=\sum_{j=1}^n\phi_j X_{n+1-j}
 $$
 
-与$(1)$比较，可知$\phi_j=\phi_{nj}$。
+与$(*)$比较，可知$\phi_j=\phi_{nj}$。
 
 更进一步，我们可以得到:
 
@@ -114,14 +114,14 @@ $$
 $$
 
 $$
-\begin{align}
+\begin{aligned}
 v_n
 &=\|X_{n+1}-\hat{X}_{n+1}\|^2\\
 &=\|X_{n+1}-\mathcal{P}_{\mathcal{H}_1}X_{n+1}-a(X_1-\mathcal{P}_{\mathcal{H}_1}X_1)\|^2\\
 &=\|X_{n+1}-\mathcal{P}_{\mathcal{H}_1}X_{n+1}\|^2+a^2\|X_1-\mathcal{P}_{\mathcal{H}_1}X_1\|^2-2a\langle X_{n+1},X_1-\mathcal{P}_{\mathcal{H}_1}X_1\rangle\\
 &=v_{n-1}+a^2v_{n-1}-2a^2v_{n-1}\\
 &=v_{n-1}(1-a^2)
-\end{align}
+\end{aligned}
 $$
 
 这就是

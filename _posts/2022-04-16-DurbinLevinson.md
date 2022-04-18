@@ -8,7 +8,7 @@ tags:
 
 在看shumway学习ARMA模型的PACF时，下面两个问题总是困扰着我：
 
-1. 为什么arma模型中，计算pacf的时候，将$X_{t+h}$向$\{X_{t+h-1},X_{t+h-2},\cdots,X_{t+1}\}$ 上面投影的时候，$X_{t+1}$的系数就是pacf？
+1. 为什么ar(p)模型中，计算pacf的时候，将$X_{t+h}$向$\{X_{t+h-1},X_{t+h-2},\cdots,X_{t+1}\}$ 上面投影的时候，$X_{t+1}$的系数就是pacf？
 
 2. 为什么arma模型进行forecasting的时候，用$\{X_1,X_2,\cdots, X_{n}\}$对$X_{n+1}$进行best linear prediction的时候，$X_1$前面的系数就是pacf？
 

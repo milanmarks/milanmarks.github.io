@@ -16,3 +16,5 @@ Some learning materials you might be interested:
 - [Measure Theory](https://milanmarks.github.io/posts/2022/MT-index/) This is my lecture notes for measure theory taught by Claudio Landim.
 
 * [causal inference: what if](https://milanmarks.github.io/files/ciwhatif.html). This is my summary for [causal inference: what if](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)
+
+<img src="https://github.com/milanmarks/milanmarks.github.io/raw/master/images/haodong_friends_style.png" alt="haodong"/>

@@ -9,17 +9,5 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* B.S. in Data Science, Fudan University, 2023
-
-Skills
-======
-* mathematical foundations
-  * Linear algebra
-  * Statistical inference
-  * Optimization theory
-* Programming skills
-  * R
-  * Python (especially pytorch)
+<object data="../files/cv_haodong.pdf" width="1000" height="1000" type='application/pdf'></object>
 

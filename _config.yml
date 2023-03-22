@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Haodong Ling"
+  name             : "Haodong Ling (凌浩东)"
   avatar           : "profile.jpg"
-  bio              : "undergraduate student at Fudan University"
+  bio              : "An undergraduate student in school of data science at Fudan University"
   location         : "Shanghai, China"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  pubmed           : 
+  googlescholar    : 
+  email            : 18307110171@fudan.edu.cn
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

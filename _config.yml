@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Haodong Ling (凌浩东)"
-  avatar           : "profile.jpeg"
-  bio              : "UC Berkeley Statistics MA 24' | FDU DS BS 23'"
-  location         : "Berkeley, CA, US"
+  name             : "Haodong Ling"
+  avatar           : "profile.jpg"
+  bio              : ""
+  location         : "San Jose, US"
   employer         :
   pubmed           : 
   googlescholar    : 
-  email            : 18307110171@fudan.edu.cn
+  email            : linghdong@gmail.com
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

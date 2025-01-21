@@ -7,4 +7,4 @@ redirect_from:
   - /about.html
 ---
 
-Haodong Ling (凌浩东) is a graduate student at the Department of Statistics, UC Berkeley. He received his Bachelor's degree in the school of data science at Fudan University in 2023. At Fudan University, he is fortunate to be supervised by [Prof. Xiaolei Lin](https://xiaolei-lin.github.io/).
+Haodong Ling (凌浩东) is a machine learning engineer at [TikTok](https://www.tiktok.com/about?lang=en). He got his masters' degree in Statistics at UC Berkeley in 2024. He received his Bachelor's degree in data science at Fudan University in 2023.
